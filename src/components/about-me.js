@@ -27,16 +27,8 @@ const AboutMe = ({ profileImg, hobbyImgs }) => {
             </p>
             <h4>What I'm doing</h4>
             <p>
-              I recently{" "}
-              <a
-                href="https://www.freecodecamp.org/news/how-i-was-landing-software-engineer-interviews-after-being-laid-off-2/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                shared all of the resources and strategies I used to land many
-                software engineer interviews
-              </a>
-              .
+              I recently started a new role as a Finance Analyst Intern at EDL, a renewable energy company with a global portfolio of solar, renewable natural gas, and reciprocating
+              engine assets.
             </p>
             <p>
               I am helping others as I advance in my career by sharing my
@@ -51,9 +43,9 @@ const AboutMe = ({ profileImg, hobbyImgs }) => {
               .
             </p>
             <p>
-              On my free time, I attend meetups, listen to engineering podcasts,
+              In my free time, I like to make music, listen to neuroscience and data podcasts,
               read tech blogs, and take online courses to help me become a
-              better developer for the people around me.
+              better programmer and scientist.
             </p>
             <Hobbies icons={hobbyImgs} />
           </div>
@@ -63,16 +55,12 @@ const AboutMe = ({ profileImg, hobbyImgs }) => {
             <div className="box">
               <h5>Toolbox</h5>
               <p>
-                <b>Languages and Frameworks:</b> Javascript, HTML5, CSS3, React,
-                Bootstrap, Node, Express, MongoDB, Rails, Postgres, Jest
+                <b>Languages and Frameworks:</b> Python, R, SQL, React,
+                HTML, Node, MATLAB, Tableau, PowerBI, Microsoft Excel
                 <br />
                 <b>IDE:</b> Microsoft VS Code
                 <br />
                 <b>VCS:</b> Git/Github
-                <br />
-                <b>PMS:</b> Trello
-                <br />
-                <b>Debugger:</b> Chrome DevTools
                 <br />
               </p>
             </div>
@@ -88,11 +76,10 @@ const AboutMe = ({ profileImg, hobbyImgs }) => {
           </div>
           <div className="col-lg-4  col-md-4 col-6 ">
             <div className="box">
-              <h5>Hacking on</h5>
+              <h5>Working On</h5>
               <p>
                 {" "}
-                1) Contributing fulltime to NerdWallet. We're on a mission to
-                provide clarity for all of life’s financial decisions.
+                1) Adding value to the finance team and other stakeholder groups at EDL throughout my internship. 
                 <br />
                 2) Making this website more{" "}
                 <a
@@ -104,7 +91,7 @@ const AboutMe = ({ profileImg, hobbyImgs }) => {
                 </a>
                 .
                 <br />
-                3) Brainstorming a new technical blog post to write.
+                3) Continuing my summer classes for my M.S. program.
               </p>
             </div>
           </div>
