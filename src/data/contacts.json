@@ -1,0 +1,26 @@
+[
+    {
+      "name": "Github",
+      "icon": "github",
+      "type": "social-media",
+      "url": "https://github.com/tonymoceri"
+    },
+    {
+      "name": "Medium",
+      "icon": "medium",
+      "type": "social-media",
+      "url": "https://medium.com/@maribelduran"
+    },
+    {
+      "name": "LinkedIn",
+      "icon": "linkedin",
+      "type": "social-media",
+      "url": "https://www.linkedin.com/in/anthony-moceri"
+    },
+    {
+      "name": "Email",
+      "icon": "envelope",
+      "type": "email",
+      "url": "mailto:moceria2@msu.edi"
+    }
+  ]
