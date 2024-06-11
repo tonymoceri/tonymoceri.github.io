@@ -1,14 +1,27 @@
-import * as React from "react"
+import React from 'react';
+import PropTypes from 'prop-types';
+import styled from 'styled-components';
+import { Layout, Hero, About, Jobs, Featured, Projects, Contact } from '@components';
 
-const IndexPage = () => {
-  return (
-    <main>
-      <h1>Welcome to my Gatsby site!</h1>
-      <p>I'm making this by following the Gatsby Tutorial.</p>
-    </main>
-  )
-}
+const StyledMainContainer = styled.main`
+  counter-reset: section;
+`;
 
-export const Head = () => <title>Home Page</title>
+const IndexPage = ({ location }) => (
+  <Layout location={location}>
+    <StyledMainContainer className="fillHeight">
+      <Hero />
+      <About />
+      <Jobs />
+      <Featured />
+      <Projects />
+      <Contact />
+    </StyledMainContainer>
+  </Layout>
+);
 
-export default IndexPage
+IndexPage.propTypes = {
+  location: PropTypes.object.isRequired,
+};
+
+export default IndexPage;
