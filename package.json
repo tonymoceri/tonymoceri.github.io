@@ -2,11 +2,12 @@
   "name": "personal-portfolio",
   "version": "1.0.0",
   "private": true,
-  "description": "personal-portfolio",
+  "description": "A portfolio of past and working projects",
   "author": "tonymoceri",
-  "keywords": [
-    "gatsby"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tonymoceri/tonymoceri.github.io.git"
+  },
   "scripts": {
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
