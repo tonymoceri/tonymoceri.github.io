@@ -1,27 +1,69 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styled from 'styled-components';
-import { Layout, Hero, About, Jobs, Featured, Projects, Contact } from '@components';
+@import url("https://fonts.googleapis.com/css?family=Lora|Open+Sans:300,400");
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: "Lora", serif;
+}
 
-const StyledMainContainer = styled.main`
-  counter-reset: section;
-`;
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 2em;
+}
 
-const IndexPage = ({ location }) => (
-  <Layout location={location}>
-    <StyledMainContainer className="fillHeight">
-      <Hero />
-      <About />
-      <Jobs />
-      <Featured />
-      <Projects />
-      <Contact />
-    </StyledMainContainer>
-  </Layout>
-);
+h2 {
+  margin-bottom: 70px;
+  font-size: 40px;
+}
 
-IndexPage.propTypes = {
-  location: PropTypes.object.isRequired,
-};
+h3 {
+  font-size: 38px;
+  font-weight: 100;
+}
 
-export default IndexPage;
+h4 {
+  font-size: 26px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+.section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.section-content {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/******** BOOTSTRAP ******/
+
+.main {
+  margin: auto;
+  width: 100% !important;
+  padding-left: 0;
+  padding-right: 0;
+  /* to keep footer at bottom of page*/
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 220px; /* Height of the footer element */
+}
+
+.row {
+  margin: auto;
+}
+
+a {
+  color: #337ab7;
+}
